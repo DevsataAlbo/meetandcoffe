@@ -1,0 +1,38 @@
+.pagina-evento {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.pagina-evento img {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.pagina-evento h2 {
+    margin: 50px auto 30px;
+}
+
+.segundo-texto {
+    margin-bottom: 80px;
+}
+
+.boton {
+    background: #b6421b;
+    width: 150px;
+    padding: 10px;
+    margin: 0px auto 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.boton:hover {
+    background: #e07855;
+    transition: .5s;
+}
+
+.boton a {
+    text-decoration: none;
+    color: #ffffff;
+}

@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 20px 0px;
+    margin: 0px;
+    background: #000000;
+}
+
+.menu li {
+    padding: 0px 30px;
+}
+
+.menu li:first-child {
+    width: 30px;
+    fill: #ffffff;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.titulo {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 120px 50px;
+    text-align: right;
+    text-shadow: 2px 2px #3f3f3f;
+    color: #ffffff;
+}
+
+.titulo h1 {
+    margin-left: auto;
+    width: 40%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.titulo h3 {
+    margin-left: auto;
+    width: 70%;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.reunion {
+    text-align: center;
+    width: 60%;
+    margin: 70px auto;
+}
+
+.reunion img {
+    width: 40%;
+}
+
+.reunion p {
+    width: 70%;
+    margin: 0px auto;
+}
+
+#fecha {
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+}
+
+#fecha .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 25%;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* 
+.speaker {
+    background: #a4452c;
+    padding: 100px;
+    color: #ffffff;
+}
+
+.items {
+    display: inline-block;
+    vertical-align: middle;
+    width: 800px;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.items img {
+    width: 25%;
+}
+
+.datos {
+    width: 70%;
+    margin-left: 4%;
+    /* display: block;
+    justify-content: left;
+    padding-left: 20px;
+    width: 75%;
+    height: 75%; 
+}
+
+.datos h2 {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.datos h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.speaker-info {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+} */
+
+.eventos-anteriores {
+    text-align: center;
+    margin: 70px;
+}
+    
+.fotos-eventos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.pie-pagina {
+    background: #000000;
+    color: #ffffff;
+}
+
+.pie-pagina ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 40px;
+    margin: 0px;
+    padding: 50px 0px 20px 0px;
+    }
+    
+.pie-pagina ul li {
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.pie-pagina ul li:nth-child(2) {
+    margin: 0px 15px;
+}
+
+.pie-pagina p {
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+
+
